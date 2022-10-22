@@ -47,7 +47,6 @@ function Result({correct}) {
 function Game({ question, onClickOption, step}) {
   let stepPercentage = Math.round((step / questions.length) * 100) + 1;
 
-  console.log(stepPercentage);
   return (
     <>
       <div className="progress">
